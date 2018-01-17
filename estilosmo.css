@@ -1,0 +1,55 @@
+#contenedor{
+box-shadow: 10px 10px 5px #ccc;
+width: 863px;
+height: 900px;
+margin: 0 auto;
+border: #666 1px solid;
+border-radius: 10px;
+}
+
+.oculto {display: none;}
+.visible { display: block; }
+#menu-horizontal li {
+display: inline;
+width: 700px;
+padding: 1px 27px;
+box-shadow:10px 10px 5px #ccc;
+border: #666 1px solid;
+border-radius: 10px;
+list-style-type: none;
+background-color:#999999;
+}
+
+
+.elemento_menu{
+box-shadow:10px 10px 5px #ccc;
+border: #666 1px solid;
+border-radius: 10px;
+width: 700px;
+height: 680px;
+position:relative;
+left: 2em;
+top: 3.5em;
+padding-left: 2em;
+padding-right: 2em;
+background-color: beige;
+}
+ul li a {
+   text-decoration: none; 
+   color:#ffffff
+}
+
+ul li a:hover, ul li a:active{
+    background: #ff0000;
+    color:#ffffff;
+}
+    
+#cabecera { background-image: url("encabezado4.jpg"); height: 50px; border-radius: 10px; box-shadow: 10px 10px 5px #ccc; 
+           padding-top: 20px; }
+
+#cabecera h1 { text-align: center; color: #660000; }
+.visible h2 { text-align: center; color: #660000; }
+img{ float: left; margin-left: 12px; margin-right: 12px; }
+#texto { text-align: justify;}
+#poema { text-align: center;}
+#fotos { float: left; }

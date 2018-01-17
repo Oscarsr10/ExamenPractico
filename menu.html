@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>La web de Otoño</title>
+
+ 
+<script type="text/javascript"> 
+   
+function muestra(capa) { 
+	var capas = document.getElementsByTagName("div")
+    
+       for(var i=0; i<capas.length; i++) { 
+       
+		 if(capas[i].className == "elemento_menu visible") { 
+            capas[i].className = "elemento_menu oculto"; 
+         } 
+		 }
+	var elemento = document.getElementById(capa); 
+       	elemento.className = "elemento_menu visible"; 
+
+      } 
+
+ </script> 
+
+<link href="estilosmo.css" rel="stylesheet" type="text/css" />
+<link href=”estilosmo.css” rel=”stylesheet” type=”text/css” media=”handheld” />
+</head>
+
+<body>
+<div id="contenedor">
+    <div id="cabecera">
+        <h1>La web de Otoño</h1>
+    </div>
+<div id="menu-horizontal">
+
+<ul>
+<li> <a href="#" onclick="muestra('Relatos')">Relatos</a></li>
+<li> <a href="#" onclick="muestra('Poesía')">Poesía </a></li>
+<li> <a href="#" onclick="muestra('Fotos')">Fotos </a></li>
+<li> <a href="#" onclick="muestra('Cuentos')">Cuentos </a></li>
+<li> <a href="#" onclick="muestra('Opinión')">Opinión </a></li>
+
+</ul>
+</div>
+<div id="Relatos" class="elemento_menu visible">
+<h2>De los árboles caían pesadas las últimas hojas </h2>
+<div id="imagen">
+
+    <img src="otonyo.jpg" alt="La imagen del otoño"/>
+</div>
+<div id="texto">
+De los árboles caían pesadas las últimas hojas. Los días se acortaban, como los paseos al atardecer, como las conversaciones a la intemperie cuando dos conocidos se encontraban.
+El otoño era la estación que más le gustaba. La única en la que no se sentía solo, sino acompañado por algo tan valioso como la naturaleza. En este lado del mundo todo se ralentizaba, la vida se hacía más pausada, o simplemente, se ocultaba. Y se sentía tan identificado con esta estación, que su vida parecía un perpetuo otoño.
+Para muchos triste, melancólico, infeliz... el otoño era para él la mejor época en la que compartir emociones. El ya incipiente frío propiciaba según él la búsqueda de un corazón en el que resguardarse, el más temprano anochecer otorgaba mayor tiempo de oscuridad para derramar lágrimas de felicidad, o para compartir momentos de esos tan especiales.
+Puede que para quien lo observara desde la lejanía no existiese sentido a la sonrisa que casi siempre mostraba en esta época. Pero era sincera. Sonreía al recordar a esas personas a las que algún día había amado, aún sin poder. Sonreía al creer que tenían un corazón en el que resguardarse, puede que no tan grande como el suyo, pero seguro más deseado. Más querido.
+Pero aun así, sonreía por ellas, pues siempre deseó su felicidad.
+
+Poco a poco caía la noche, el frío arreciaba, apenas quedaba ya nadie en la calle encharcada. Apresuró sus pasos en dirección al albergue, donde con suerte podría comer algo o, al menos, dormir. Si así no fuese, los cartones serían una buena compañía para sobrevivir una noche más en la calle, y soñar en que no eran esos simples envoltorios de objetos, con quizá más sentimientos que muchas personas, quienes lo arropaban.
+Mañana sería otro feliz día de otoño.
+
+</div>
+</div>
+
+<div  id="Poesía" class="elemento_menu oculto">
+<h2>Otoño</h2>
+<pre id="poema">
+Esparce octubre, al blando movimiento
+del sur, las hojas áureas y las rojas,
+y, en la caída clara de sus hojas,
+se lleva al infinito el pensamiento.
+
+Qué noble paz en este alejamiento
+de todo; oh prado bello que deshojas
+tus flores; oh agua fría ya, que mojas
+con tu cristal estremecido el viento!
+
+¡Encantamiento de oro! Cárcel pura,
+en que el cuerpo, hecho alma, se enternece,
+echado en el verdor de una colina!
+
+En una decadencia de hermosura,
+la vida se desnuda, y resplandece
+la excelsitud de su verdad divina.
+</pre>
+
+</div >
+<div id="Fotos" class="elemento_menu oculto" >
+<h2>Galeria de fotografías de Otoño</h2>
+
+</div>
+<div id="Cuentos" class="elemento_menu oculto">
+<h2>Cuentos</h2>
+En este artículo vamos a conocer la maquetación de paginas utilizando Hojas de estilos en cascada (CSS). Veremos cómo realizar este tipo de maquetación, junto con algunas ventajas e inconvenientes. Para muchos será todavía un campo por explorar. Aunque no vamos a entrar en grandes detalles, vamos a intentar dar a conocer la maquetación con CSS para que cubrir la posible laguna por parte del lector. En capítulos sucesivos ampliaremos la información y ofreceremos tutoriales más prácticos. 
+
+</div>
+
+<div id="Opinión" class="elemento_menu oculto">
+<h2>Opinión</h2>
+En este artículo vamos a conocer la maquetación de paginas utilizando Hojas de estilos en cascada (CSS). Veremos cómo realizar este tipo de maquetación, junto con algunas ventajas e inconvenientes. Para muchos será todavía un campo por explorar. Aunque no vamos a entrar en grandes detalles, vamos a intentar dar a conocer la maquetación con CSS para que cubrir la posible laguna por parte del lector. En capítulos sucesivos ampliaremos la información y ofreceremos tutoriales más prácticos.
+
+</div>
+</div>
+</div>
+</body>
+</html>
